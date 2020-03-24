@@ -32,7 +32,9 @@
                             <option value="0">Please Choose Category</option>
                             @foreach($theloai as $tl)
                                 <option
-                                    {{$loaitin->idTheloai == $tl->id ? "selected" : ''}}
+                                    @if($loaitin->idTheloai == $tl->id)
+                                        {{"selected"}}
+                                    @endif
                                     value="{{$tl->id}}" >{{$tl->Ten}}</option>
                             @endforeach
                         </select>
