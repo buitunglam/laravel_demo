@@ -43,7 +43,10 @@ Route::group(['prefix'=>'admin'], function(){
 
     Route::group(['prefix'=>'tintuc'], function(){
         Route::get('danhsach', 'TinTucController@getDanhSach');
-        Route::get('sua', 'TinTucController@suaDanhSach');
-        Route::get('xoa', 'TinTucController@xoaDanhSach');
+        Route::get('sua/{id}', 'TinTucController@getSua');
+        Route::post('sua/{id}', 'TinTucController@postSua');
+        Route::get('them', 'TinTucController@getThem');
+        Route::post('them', 'TinTucController@postLoaiTin');
+        Route::get('xoa/{id}', 'TinTucController@getXoa');
     });
 });

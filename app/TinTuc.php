@@ -8,7 +8,7 @@ class TinTuc extends Model
 {
     protected $table = "TinTuc";
     public function loaitin(){
-        return $this->belongsTo('App\LoaiTin', 'idLoaiTIn', 'id');
+        return $this->belongsTo('App\LoaiTin', 'idLoaiTin', 'id');
     }
 
     public function comment(){

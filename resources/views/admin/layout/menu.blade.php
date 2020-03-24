@@ -43,10 +43,10 @@
                 <a href="admin/tintuc/danhsach"><i class="fa fa-bar-chart-o fa-fw"></i> Tin tức<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="admin/slide/danhsach">Danh sách</a>
+                        <a href="admin/tintuc/danhsach">Danh sách</a>
                     </li>
                     <li>
-                        <a href="admin/slide/them">Thêm tin tức</a>
+                        <a href="admin/tintuc/them">Thêm tin tức</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
